@@ -5,17 +5,17 @@ AOS.init();
 const experiencecards = document.querySelector(".experience-cards");
 const exp = [
   {
-    title: "Cloud Engineering Co-op",
+    title: "Cloud Engineering Intern",
     cardImage: "assets/images/experience-page/cibc1.png",
     place: "CIBC",
-    time: "(Sept 2024 - present)",
+    time: "(Sept 2024 - Present)",
     desp: "<li>Configured and updated Network Security Groups across 1000 sites in the US and Canada, improving compliance adherence by 30% and strengthening security policies enterprise-wide</li> <li>Resolved a critical bug in a Python script, averting potential damages of over $10 million for the bank</li> <li>Streamlined development workflows by 40% by implementing Azure DevOps solutions, including repository management, automated CI/CD pipelines, and deployment processes</li> <li>Developed and tested scripts in YAML, Python, and SQL, streamlining networking processes and reducing manual workflows by 80%</li>",
   },
   {
-    title: "Freelance Software Engineer",
-    cardImage: "assets/images/experience-page/Freelancer.jpg",
-    place: "InsightFlow AI",
-    time: "(Nov 2023 - Sept 2024)",
+    title: "Software Engineer",
+    cardImage: "assets/images/experience-page/EGM_Media.png",
+    place: "EGM Media Marketing",
+    time: "(Nov 2023 - Present)",
     desp: "<li>Spearheaded the development of 15+ custom websites using HTML and React.js for the front end to build visually captivating websites, increasing client traffic by 85%</li><li>Engineered personalized AI chatbots using generative AI to automate customer interactions and reduce average response time by 90%</li><li>Negotiated and closed contracts with over 20 businesses by demonstrating the ROI and competitive advantages of tailored chatbot solutions, generating $10K+ in revenue annually</li>",
   },
 ];
@@ -54,6 +54,13 @@ document.addEventListener("DOMContentLoaded", showCards2);
 
 const hackathonsection = document.querySelector(".hackathon-section");
 const mentor = [
+  {
+    title: "Forumula Null",
+    subtitle: "Second Place winner",
+    image: "assets/images/experience-page/Formula_Null.jpg",
+    desp: "Formula Null was a 48-hour hackathon where teams built and raced vehicles made entirely from refurbished e-waste. Our team created an F1-style car using Arduino, Raspberry Pi, and C++ to process real-time Bluetooth input and control actuators. Out of 100+ participants, we finished in 2nd place.",
+    href: "https://github.com/AkramUmad572/Formula-Null-2025",
+  },
   {
     title: "HackHive 2025",
     subtitle: "Participant",
