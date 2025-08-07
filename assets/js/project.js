@@ -6,6 +6,15 @@ const projectcards = document.querySelector(".projectcards");
 // Array of object for projects
 const projects = [
   {
+    title: "Live Covid-19 Tracker",
+    cardImage: "assets/images/project-page/homepage2.png",
+    description:
+      "Developed an AI-powered meal planner in under 12 hours at HackHive 2025 as a team of three, delivering personalized plans to 50+ concurrent users using React.js and Node.js",
+    tagimg: "https://cdn.iconscout.com/icon/free/png-512/react-1-282599.png",
+    Previewlink: "https://github.com/AkramUmad572/Live-Covid19-Tracker",
+    Githublink: "https://github.com/AkramUmad572/Live-Covid19-Tracker",
+  },
+  {
     title: "Model Formula 1 car",
     cardImage: "assets/images/experience-page/Formula_Null.jpg",
     description:
